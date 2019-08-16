@@ -1,5 +1,9 @@
 import org.junit.Test;
 
+import java.util.Deque;
+import java.util.LinkedList;
+import java.util.Stack;
+
 /**
  * @author wanglong
  * @brief
@@ -14,41 +18,41 @@ public class RemoveKdigits {
      */
     public String removeKdigits(String num, int k) {
         // write your code here
-
-        if(num == null || num.length() ==0)
-            return null;
-        if(k >= num.length())
-            return "0";
         if(k <= 0)
             return num;
-        int[] diff = new int[num.length()];
+        if(num == null || k >= num.length())
+            return "0";
+        int len = num.length() - k;
+        Deque<Character> minNum = new LinkedList<>();
         for(int i = 0; i < num.length(); i ++){
-            if(i - k < 0){
-                diff[i] = '0' - num.charAt(i);
-            }else{
-                diff[i] = num.charAt(i - k) - num.charAt(i); //>0 增加 ； <0 减少
+            if(minNum.isEmpty()){
+                minNum.addLast(num.charAt(i));
+                continue;
             }
+            while(!minNum.isEmpty() && minNum.peekLast() - num.charAt(i) > 0 && k > 0){
+                minNum.removeLast();
+                k --;
+            }
+            if(minNum.isEmpty() || minNum.size() < len)
+                minNum.addLast(num.charAt(i));
         }
-        int index = 0;
-        for(; index <= num.length() - 1; index ++){
-            if(diff[index] > 0)
-                break;
-        }
-        String str ="";
-        for(int i = 0; i < num.length(); i ++){
-            if(i >index || i < index - k + 1)
-                str += num.charAt(i);
-            else if(num.charAt(i) == '0')
-                str = "";
+        while(!minNum.isEmpty() && minNum.peekFirst() == '0')
+            minNum.removeFirst();
+        String str = "";
+        while(!minNum.isEmpty()){
+            str += minNum.getFirst();
+            minNum.removeFirst();
         }
         return str;
     }
 
 
+
     @Test
     public void test(){
-//        System.out.println(removeKdigits("10200",1)); //200
-        System.out.println(removeKdigits("1432219",3)); //1219
+        System.out.println(removeKdigits("10200",1)); //200
+//        System.out.println(removeKdigits("1432219",3)); //1219
+//         System.out.println(removeKdigits("22222222222222222222222222222222222222",20)); //
     }
 }
 
