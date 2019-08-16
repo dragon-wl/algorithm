@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff238264-d31a-4daa-982e-0ac564b1271a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/LintCode/DetectCycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/algo.kotlin_module" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/LintCode/BuildTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,14 +52,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/LintCode/DetectCycle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+            <state relative-caret-position="422">
+              <caret line="94" column="54" selection-start-line="94" selection-start-column="54" selection-end-line="94" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/LintCode/BuildTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="51" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="51" />
             </state>
           </provider>
         </entry>
@@ -124,6 +131,7 @@
         <option value="$PROJECT_DIR$/src/main/LintCode/MaxSlidingWindow.java" />
         <option value="$PROJECT_DIR$/src/main/LintCode/RemoveKdigits.java" />
         <option value="$PROJECT_DIR$/src/main/LintCode/DetectCycle.java" />
+        <option value="$PROJECT_DIR$/src/main/LintCode/BuildTree.java" />
       </list>
     </option>
   </component>
@@ -217,7 +225,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DetectCycle.test">
+  <component name="RunManager" selected="JUnit.BuildTree.test">
+    <configuration name="BuildTree.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BuildTree" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DetectCycle.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo" />
       <option name="PACKAGE_NAME" value="" />
@@ -248,16 +266,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OddEvenList.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OddEvenList" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RemoveKdigits.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo" />
       <option name="PACKAGE_NAME" value="" />
@@ -270,11 +278,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BuildTree.test" />
         <item itemvalue="JUnit.DetectCycle.test" />
         <item itemvalue="JUnit.RemoveKdigits.test" />
         <item itemvalue="JUnit.MaxSlidingWindow.test" />
         <item itemvalue="JUnit.HouseRobber2.test" />
-        <item itemvalue="JUnit.OddEvenList.test" />
       </list>
     </recent_temporary>
   </component>
@@ -288,17 +296,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565876135903</updated>
-      <workItem from="1565876137222" duration="24166000" />
+      <workItem from="1565876137222" duration="25990000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RemoveKdigits_test - 2019.08.16 at 15h 33m 33s.xml">
-      <configuration name="RemoveKdigits.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RemoveKdigits_test - 2019.08.16 at 15h 33m 36s.xml">
-      <configuration name="RemoveKdigits.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DetectCycle_test - 2019.08.16 at 16h 26m 04s.xml">
       <configuration name="DetectCycle.test" configurationId="JUnit" />
     </history-entry>
@@ -323,9 +325,15 @@
     <history-entry file="DetectCycle_test - 2019.08.16 at 16h 32m 38s.xml">
       <configuration name="DetectCycle.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DetectCycle_test - 2019.08.16 at 16h 32m 40s.xml">
+      <configuration name="DetectCycle.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BuildTree_test - 2019.08.16 at 17h 00m 40s.xml">
+      <configuration name="BuildTree.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24166000" />
+    <option name="totallyTimeSpent" value="25990000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -348,7 +356,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2819277" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.29156625" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.33012047" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -413,15 +421,21 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/LintCode/DetectCycle.java</url>
-          <line>63</line>
+          <line>87</line>
           <properties />
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/LintCode/DetectCycle.java</url>
-          <line>28</line>
+          <line>52</line>
           <properties />
           <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/LintCode/BuildTree.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -637,11 +651,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/LintCode/DetectCycle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+        <state relative-caret-position="422">
+          <caret line="94" column="54" selection-start-line="94" selection-start-column="54" selection-end-line="94" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/LintCode/BuildTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="51" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="51" />
         </state>
       </provider>
     </entry>
