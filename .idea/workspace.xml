@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff238264-d31a-4daa-982e-0ac564b1271a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/LintCode/FindMinSubTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/LintCode/HouseRobber2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -77,11 +76,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/LintCode/FindMinSubTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="84" column="66" selection-start-line="84" selection-start-column="66" selection-end-line="84" selection-end-column="66" />
+            <state relative-caret-position="482">
+              <caret line="90" column="57" selection-start-line="90" selection-start-column="57" selection-end-line="90" selection-end-column="57" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/LintCode/HouseRobber2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="554">
+              <caret line="89" column="58" selection-start-line="89" selection-start-column="58" selection-end-line="89" selection-end-column="58" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -136,6 +147,7 @@
         <option value="$PROJECT_DIR$/src/main/LintCode/Shortest_path_to_the_destination_bfs.java" />
         <option value="$PROJECT_DIR$/src/main/LintCode/OddEvenList.java" />
         <option value="$PROJECT_DIR$/src/main/LintCode/FindMinSubTree.java" />
+        <option value="$PROJECT_DIR$/src/main/LintCode/HouseRobber2.java" />
       </list>
     </option>
   </component>
@@ -218,7 +230,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.OddEvenList.test">
+  <component name="RunManager" selected="JUnit.HouseRobber2.test">
+    <configuration name="HouseRobber2.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HouseRobber2" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OddEvenList.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo" />
       <option name="PACKAGE_NAME" value="" />
@@ -251,6 +273,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HouseRobber2.test" />
         <item itemvalue="JUnit.OddEvenList.test" />
         <item itemvalue="JUnit.Shortest_path_to_the_destination_bfs.test" />
         <item itemvalue="JUnit.Shortest_path_to_the_destination_dfs.test" />
@@ -267,17 +290,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565876135903</updated>
-      <workItem from="1565876137222" duration="13919000" />
+      <workItem from="1565876137222" duration="15659000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Shortest_path_to_the_destination_bfs_test - 2019.08.16 at 10h 55m 23s.xml">
-      <configuration name="Shortest_path_to_the_destination_bfs.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Shortest_path_to_the_destination_bfs_test - 2019.08.16 at 10h 57m 48s.xml">
-      <configuration name="Shortest_path_to_the_destination_bfs.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Shortest_path_to_the_destination_bfs_test - 2019.08.16 at 10h 58m 41s.xml">
       <configuration name="Shortest_path_to_the_destination_bfs.test" configurationId="JUnit" />
     </history-entry>
@@ -302,9 +319,15 @@
     <history-entry file="OddEvenList_test - 2019.08.16 at 11h 31m 33s.xml">
       <configuration name="OddEvenList.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HouseRobber2_test - 2019.08.16 at 12h 32m 44s.xml">
+      <configuration name="HouseRobber2.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HouseRobber2_test - 2019.08.16 at 12h 32m 58s.xml">
+      <configuration name="HouseRobber2.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13919000" />
+    <option name="totallyTimeSpent" value="15659000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -316,7 +339,7 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27896994" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32650602" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32650602" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -325,7 +348,7 @@
       <window_info anchor="bottom" id="IvyIDEA" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22168675" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22168675" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4698795" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -495,8 +518,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/LintCode/FindMinSubTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="84" column="66" selection-start-line="84" selection-start-column="66" selection-end-line="84" selection-end-column="66" />
+        <state relative-caret-position="482">
+          <caret line="90" column="57" selection-start-line="90" selection-start-column="57" selection-end-line="90" selection-end-column="57" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/LintCode/HouseRobber2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="89" column="58" selection-start-line="89" selection-start-column="58" selection-end-line="89" selection-end-column="58" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
