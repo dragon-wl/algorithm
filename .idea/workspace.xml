@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff238264-d31a-4daa-982e-0ac564b1271a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/LintCode/OddEvenList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/LintCode/OddEvenList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/LintCode/FindMinSubTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,11 +68,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/LintCode/OddEvenList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+            <state relative-caret-position="252">
+              <caret line="56" column="20" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="56" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/LintCode/FindMinSubTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="422">
+              <caret line="84" column="66" selection-start-line="84" selection-start-column="66" selection-end-line="84" selection-end-column="66" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,6 +135,7 @@
         <option value="$PROJECT_DIR$/src/main/LintCode/Shortest_path_to_the_destination_dfs.java" />
         <option value="$PROJECT_DIR$/src/main/LintCode/Shortest_path_to_the_destination_bfs.java" />
         <option value="$PROJECT_DIR$/src/main/LintCode/OddEvenList.java" />
+        <option value="$PROJECT_DIR$/src/main/LintCode/FindMinSubTree.java" />
       </list>
     </option>
   </component>
@@ -253,7 +267,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565876135903</updated>
-      <workItem from="1565876137222" duration="12751000" />
+      <workItem from="1565876137222" duration="13919000" />
     </task>
     <servers />
   </component>
@@ -290,11 +304,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12751000" />
+    <option name="totallyTimeSpent" value="13919000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -336,7 +349,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/LintCode/OddEvenList.java</url>
-          <line>69</line>
+          <line>67</line>
           <properties />
           <option name="timeStamp" value="26" />
         </line-breakpoint>
@@ -475,8 +488,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/LintCode/OddEvenList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+        <state relative-caret-position="252">
+          <caret line="56" column="20" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="56" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/LintCode/FindMinSubTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="84" column="66" selection-start-line="84" selection-start-column="66" selection-end-line="84" selection-end-column="66" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
