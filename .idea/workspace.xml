@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff238264-d31a-4daa-982e-0ac564b1271a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/LintCode/RemoveKdigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/LintCode/RemoveKdigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/LintCode/DetectCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/algo.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,19 +37,49 @@
         <entry file="file://$PROJECT_DIR$/src/main/LintCode/OddEvenList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="56" column="20" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="56" selection-end-column="20" />
+              <caret line="56" column="20" selection-start-line="44" selection-start-column="8" selection-end-line="56" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/LintCode/RemoveKdigits.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="29" column="19" selection-start-line="18" selection-start-column="4" selection-end-line="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/LintCode/RemoveKdigits.java">
+        <entry file="file://$PROJECT_DIR$/src/main/LintCode/DetectCycle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="47" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="47" />
+            <state relative-caret-position="225">
+              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="202" selection-start-line="202" selection-end-line="202" />
             </state>
           </provider>
         </entry>
@@ -91,6 +123,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/LintCode/MaxSlidingWindow.java" />
         <option value="$PROJECT_DIR$/src/main/LintCode/RemoveKdigits.java" />
+        <option value="$PROJECT_DIR$/src/main/LintCode/DetectCycle.java" />
       </list>
     </option>
   </component>
@@ -184,7 +217,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RemoveKdigits.test">
+  <component name="RunManager" selected="JUnit.DetectCycle.test">
+    <configuration name="DetectCycle.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DetectCycle" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HouseRobber2.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo" />
       <option name="PACKAGE_NAME" value="" />
@@ -225,23 +268,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Shortest_path_to_the_destination_bfs.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Shortest_path_to_the_destination_bfs" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DetectCycle.test" />
         <item itemvalue="JUnit.RemoveKdigits.test" />
         <item itemvalue="JUnit.MaxSlidingWindow.test" />
         <item itemvalue="JUnit.HouseRobber2.test" />
         <item itemvalue="JUnit.OddEvenList.test" />
-        <item itemvalue="JUnit.Shortest_path_to_the_destination_bfs.test" />
       </list>
     </recent_temporary>
   </component>
@@ -255,44 +288,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565876135903</updated>
-      <workItem from="1565876137222" duration="22919000" />
+      <workItem from="1565876137222" duration="24166000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RemoveKdigits_test - 2019.08.16 at 15h 23m 04s.xml">
-      <configuration name="RemoveKdigits.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RemoveKdigits_test - 2019.08.16 at 15h 24m 11s.xml">
-      <configuration name="RemoveKdigits.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RemoveKdigits_test - 2019.08.16 at 15h 24m 22s.xml">
-      <configuration name="RemoveKdigits.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RemoveKdigits_test - 2019.08.16 at 15h 25m 40s.xml">
-      <configuration name="RemoveKdigits.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RemoveKdigits_test - 2019.08.16 at 15h 30m 52s.xml">
-      <configuration name="RemoveKdigits.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RemoveKdigits_test - 2019.08.16 at 15h 32m 17s.xml">
-      <configuration name="RemoveKdigits.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RemoveKdigits_test - 2019.08.16 at 15h 32m 25s.xml">
-      <configuration name="RemoveKdigits.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RemoveKdigits_test - 2019.08.16 at 15h 33m 00s.xml">
-      <configuration name="RemoveKdigits.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RemoveKdigits_test - 2019.08.16 at 15h 33m 33s.xml">
       <configuration name="RemoveKdigits.test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RemoveKdigits_test - 2019.08.16 at 15h 33m 36s.xml">
       <configuration name="RemoveKdigits.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DetectCycle_test - 2019.08.16 at 16h 26m 04s.xml">
+      <configuration name="DetectCycle.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DetectCycle_test - 2019.08.16 at 16h 26m 21s.xml">
+      <configuration name="DetectCycle.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DetectCycle_test - 2019.08.16 at 16h 27m 07s.xml">
+      <configuration name="DetectCycle.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DetectCycle_test - 2019.08.16 at 16h 27m 27s.xml">
+      <configuration name="DetectCycle.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DetectCycle_test - 2019.08.16 at 16h 28m 25s.xml">
+      <configuration name="DetectCycle.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DetectCycle_test - 2019.08.16 at 16h 29m 23s.xml">
+      <configuration name="DetectCycle.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DetectCycle_test - 2019.08.16 at 16h 31m 11s.xml">
+      <configuration name="DetectCycle.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DetectCycle_test - 2019.08.16 at 16h 32m 38s.xml">
+      <configuration name="DetectCycle.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22919000" />
+    <option name="totallyTimeSpent" value="24166000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -314,8 +347,8 @@
       <window_info anchor="bottom" id="IvyIDEA" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2819277" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4698795" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2819277" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.29156625" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -378,16 +411,50 @@
           <properties />
           <option name="timeStamp" value="42" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/LintCode/DetectCycle.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/LintCode/DetectCycle.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
-        <watch expression="dequeue" language="JAVA" />
+        <watch expression="head.val" language="JAVA" />
+        <watch expression="head.next.val" language="JAVA" />
+        <watch expression="head.next.next" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>head.next.next</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>head.next.val</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>head.val</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>head</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>dequeue</expression-string>
         <language-id>JAVA</language-id>
@@ -409,32 +476,12 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>head</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
         <expression-string>lenRes</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
         <expression-string>tmp</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>tmp.x + colChange[k]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>pointList</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>cc</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -531,20 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="203" selection-start-line="203" selection-end-line="203" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
@@ -567,14 +600,45 @@
     <entry file="file://$PROJECT_DIR$/src/main/LintCode/OddEvenList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="56" column="20" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="56" selection-end-column="20" />
+          <caret line="56" column="20" selection-start-line="44" selection-start-column="8" selection-end-line="56" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/LintCode/RemoveKdigits.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="47" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="47" />
+        <state relative-caret-position="249">
+          <caret line="29" column="19" selection-start-line="18" selection-start-column="4" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="202" selection-start-line="202" selection-end-line="202" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/LintCode/DetectCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
