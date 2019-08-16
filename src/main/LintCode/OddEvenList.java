@@ -45,24 +45,16 @@ public class OddEvenList {
         // write your code here
         if(head == null || head.next == null)
             return head;
-        ListNode oddHead = head, oddTmp = head;
-        ListNode evenHead = head.next, evenTmp = head.next;
-        ListNode node = head.next.next;
-        int len = 3;
-        while(node != null){
-            if(len%2==1){
-                oddTmp.next = node;
-                oddTmp = oddTmp.next;
-            }else{
-                evenTmp.next = node;
-                evenTmp = evenTmp.next;
-            }
-            node = node.next;
-            len ++;
+        ListNode odd = head, even = head.next;
+        ListNode evenHead = head.next;
+        while(even != null && even.next != null){
+            odd.next = even.next;
+            odd = odd.next;
+            even.next = even.next.next;
+            even = even.next;
         }
-        evenTmp.next = null; //注意链表尾部的next需要设置为空，否则因空间消耗太多而无法ACCEPT
-        oddTmp.next = evenHead;
-        return oddHead;
+        odd.next = evenHead;
+        return head;
     }
 
     @Test
