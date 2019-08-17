@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff238264-d31a-4daa-982e-0ac564b1271a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/LintCode/ReserveKGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/LintCode/PairNums.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,18 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/LintCode/MaxSlidingWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="90" column="21" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/LintCode/OddEvenList.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -84,11 +72,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/LintCode/ReserveKGroup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="151" column="7" selection-start-line="151" selection-start-column="7" selection-end-line="151" selection-end-column="7" />
+            <state relative-caret-position="407">
+              <caret line="151" column="66" selection-start-line="151" selection-start-column="66" selection-end-line="151" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/LintCode/PairNums.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -154,6 +154,7 @@
         <option value="$PROJECT_DIR$/src/main/LintCode/BuildTree.java" />
         <option value="$PROJECT_DIR$/src/main/LintCode/ConcatenateString.java" />
         <option value="$PROJECT_DIR$/src/main/LintCode/ReserveKGroup.java" />
+        <option value="$PROJECT_DIR$/src/main/LintCode/PairNums.java" />
       </list>
     </option>
   </component>
@@ -247,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ReserveKGroup.test">
+  <component name="RunManager" selected="JUnit.PairNums.test">
     <configuration name="BuildTree.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo" />
       <option name="PACKAGE_NAME" value="" />
@@ -277,10 +278,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DetectCycle.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PairNums.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DetectCycle" />
+      <option name="MAIN_CLASS_NAME" value="PairNums" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -299,11 +300,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PairNums.test" />
         <item itemvalue="JUnit.ReserveKGroup.test" />
         <item itemvalue="JUnit.ConcatenateString" />
         <item itemvalue="JUnit.ConcatenateString.test" />
         <item itemvalue="JUnit.BuildTree.test" />
-        <item itemvalue="JUnit.DetectCycle.test" />
       </list>
     </recent_temporary>
   </component>
@@ -318,20 +319,11 @@
       <option name="presentableId" value="Default" />
       <updated>1565876135903</updated>
       <workItem from="1565876137222" duration="28094000" />
-      <workItem from="1566009346814" duration="6079000" />
+      <workItem from="1566009346814" duration="6768000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReserveKGroup_test - 2019.08.17 at 12h 34m 22s.xml">
-      <configuration name="ReserveKGroup.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReserveKGroup_test - 2019.08.17 at 12h 34m 24s.xml">
-      <configuration name="ReserveKGroup.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReserveKGroup_test - 2019.08.17 at 12h 35m 24s.xml">
-      <configuration name="ReserveKGroup.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ReserveKGroup_test - 2019.08.17 at 12h 35m 33s.xml">
       <configuration name="ReserveKGroup.test" configurationId="JUnit" />
     </history-entry>
@@ -353,9 +345,18 @@
     <history-entry file="ReserveKGroup_test - 2019.08.17 at 12h 47m 28s.xml">
       <configuration name="ReserveKGroup.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PairNums_test - 2019.08.17 at 13h 20m 17s.xml">
+      <configuration name="PairNums.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PairNums_test - 2019.08.17 at 13h 21m 11s.xml">
+      <configuration name="PairNums.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PairNums_test - 2019.08.17 at 13h 21m 38s.xml">
+      <configuration name="PairNums.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34173000" />
+    <option name="totallyTimeSpent" value="34862000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -483,24 +484,38 @@
           <properties />
           <option name="timeStamp" value="50" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/LintCode/PairNums.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
-        <watch expression="head.val" language="JAVA" />
-        <watch expression="head.next.val" language="JAVA" />
-        <watch expression="head.next.next.val" language="JAVA" />
-        <watch expression="n1.val" language="JAVA" />
-        <watch expression="nk.val" language="JAVA" />
-        <watch expression="curt.val" language="JAVA" />
-        <watch expression="prev.val" language="JAVA" />
-        <watch expression="tmp.val" language="JAVA" />
-        <watch expression="nk.next.val" language="JAVA" />
+        <watch expression="x &amp; (x - 1)" language="JAVA" />
+        <watch expression="y &amp; (y -1 )" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>y &amp; (y -1 )</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>x &amp; (x - 1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>x &amp; (x - 1))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>nk.next.val</expression-string>
         <language-id>JAVA</language-id>
@@ -533,21 +548,6 @@
       </expression>
       <expression>
         <expression-string>kNext</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>kNextNode</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>kNode.val</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>head.next.next.val</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -728,8 +728,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/LintCode/ReserveKGroup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="151" column="7" selection-start-line="151" selection-start-column="7" selection-end-line="151" selection-end-column="7" />
+        <state relative-caret-position="407">
+          <caret line="151" column="66" selection-start-line="151" selection-start-column="66" selection-end-line="151" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/LintCode/PairNums.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
