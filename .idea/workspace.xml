@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff238264-d31a-4daa-982e-0ac564b1271a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/LintCode/FlipDigit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/LintCode/ClosestBinarySearchTreeValue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,18 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/LintCode/RemoveKdigits.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="29" column="19" selection-start-line="18" selection-start-column="4" selection-end-line="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/LintCode/DetectCycle.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -85,11 +73,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/LintCode/FlipDigit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="92" column="62" selection-start-line="92" selection-start-column="62" selection-end-line="92" selection-end-column="62" />
+            <state relative-caret-position="94">
+              <caret line="77" column="26" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/LintCode/ClosestBinarySearchTreeValue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="519">
+              <caret line="146" column="32" selection-start-line="146" selection-start-column="32" selection-end-line="146" selection-end-column="32" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,6 +132,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -157,6 +163,7 @@
         <option value="$PROJECT_DIR$/src/main/LintCode/ReserveKGroup.java" />
         <option value="$PROJECT_DIR$/src/main/LintCode/PairNums.java" />
         <option value="$PROJECT_DIR$/src/main/LintCode/FlipDigit.java" />
+        <option value="$PROJECT_DIR$/src/main/LintCode/ClosestBinarySearchTreeValue.java" />
       </list>
     </option>
   </component>
@@ -250,20 +257,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FlipDigit">
-    <configuration name="ConcatenateString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ClosestBinarySearchTreeValue">
+    <configuration name="ClosestBinarySearchTreeValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ConcatenateString" />
+      <option name="MAIN_CLASS_NAME" value="ClosestBinarySearchTreeValue" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConcatenateString.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClosestBinarySearchTreeValue.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ConcatenateString" />
+      <option name="MAIN_CLASS_NAME" value="ClosestBinarySearchTreeValue" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -301,11 +308,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ClosestBinarySearchTreeValue" />
+        <item itemvalue="JUnit.ClosestBinarySearchTreeValue.test" />
         <item itemvalue="JUnit.FlipDigit" />
         <item itemvalue="JUnit.PairNums.test" />
         <item itemvalue="JUnit.ReserveKGroup.test" />
-        <item itemvalue="JUnit.ConcatenateString" />
-        <item itemvalue="JUnit.ConcatenateString.test" />
       </list>
     </recent_temporary>
   </component>
@@ -320,44 +327,44 @@
       <option name="presentableId" value="Default" />
       <updated>1565876135903</updated>
       <workItem from="1565876137222" duration="28094000" />
-      <workItem from="1566009346814" duration="8105000" />
+      <workItem from="1566009346814" duration="10595000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReserveKGroup_test - 2019.08.17 at 12h 42m 02s.xml">
-      <configuration name="ReserveKGroup.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReserveKGroup_test - 2019.08.17 at 12h 45m 41s.xml">
-      <configuration name="ReserveKGroup.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReserveKGroup_test - 2019.08.17 at 12h 47m 26s.xml">
-      <configuration name="ReserveKGroup.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReserveKGroup_test - 2019.08.17 at 12h 47m 28s.xml">
-      <configuration name="ReserveKGroup.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PairNums_test - 2019.08.17 at 13h 20m 17s.xml">
-      <configuration name="PairNums.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PairNums_test - 2019.08.17 at 13h 21m 11s.xml">
-      <configuration name="PairNums.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PairNums_test - 2019.08.17 at 13h 21m 38s.xml">
-      <configuration name="PairNums.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FlipDigit - 2019.08.17 at 13h 44m 44s.xml">
-      <configuration name="FlipDigit" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FlipDigit - 2019.08.17 at 13h 49m 32s.xml">
       <configuration name="FlipDigit" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FlipDigit - 2019.08.17 at 13h 50m 09s.xml">
       <configuration name="FlipDigit" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ClosestBinarySearchTreeValue - 2019.08.17 at 14h 38m 32s.xml">
+      <configuration name="ClosestBinarySearchTreeValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClosestBinarySearchTreeValue_test - 2019.08.17 at 14h 38m 41s.xml">
+      <configuration name="ClosestBinarySearchTreeValue.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClosestBinarySearchTreeValue_test - 2019.08.17 at 14h 53m 13s.xml">
+      <configuration name="ClosestBinarySearchTreeValue.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClosestBinarySearchTreeValue - 2019.08.17 at 14h 54m 19s.xml">
+      <configuration name="ClosestBinarySearchTreeValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClosestBinarySearchTreeValue - 2019.08.17 at 14h 54m 38s.xml">
+      <configuration name="ClosestBinarySearchTreeValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClosestBinarySearchTreeValue_test - 2019.08.17 at 15h 06m 58s.xml">
+      <configuration name="ClosestBinarySearchTreeValue.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClosestBinarySearchTreeValue_test - 2019.08.17 at 15h 08m 17s.xml">
+      <configuration name="ClosestBinarySearchTreeValue.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClosestBinarySearchTreeValue - 2019.08.17 at 15h 12m 34s.xml">
+      <configuration name="ClosestBinarySearchTreeValue" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36199000" />
+    <option name="totallyTimeSpent" value="38689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -746,8 +753,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/LintCode/FlipDigit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="92" column="62" selection-start-line="92" selection-start-column="62" selection-end-line="92" selection-end-column="62" />
+        <state relative-caret-position="94">
+          <caret line="77" column="26" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/LintCode/ClosestBinarySearchTreeValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="146" column="32" selection-start-line="146" selection-start-column="32" selection-end-line="146" selection-end-column="32" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
