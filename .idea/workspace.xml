@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff238264-d31a-4daa-982e-0ac564b1271a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/LintCode/ConcatenateString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BuildTree$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BuildTree$TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BuildTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BuildTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/LintCode/ReserveKGroup.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -74,15 +71,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/LintCode/ConcatenateString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="90" column="2" selection-start-line="90" selection-start-column="2" selection-end-line="90" selection-end-column="2" />
+            <state relative-caret-position="1224">
+              <caret line="90" column="5" lean-forward="true" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/LintCode/ReserveKGroup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="474">
+              <caret line="151" column="7" selection-start-line="151" selection-start-column="7" selection-end-line="151" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -147,6 +153,7 @@
         <option value="$PROJECT_DIR$/src/main/LintCode/DetectCycle.java" />
         <option value="$PROJECT_DIR$/src/main/LintCode/BuildTree.java" />
         <option value="$PROJECT_DIR$/src/main/LintCode/ConcatenateString.java" />
+        <option value="$PROJECT_DIR$/src/main/LintCode/ReserveKGroup.java" />
       </list>
     </option>
   </component>
@@ -240,7 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ConcatenateString">
+  <component name="RunManager" selected="JUnit.ReserveKGroup.test">
     <configuration name="BuildTree.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo" />
       <option name="PACKAGE_NAME" value="" />
@@ -280,10 +287,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveKdigits.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReserveKGroup.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algo" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RemoveKdigits" />
+      <option name="MAIN_CLASS_NAME" value="ReserveKGroup" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -292,11 +299,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ReserveKGroup.test" />
         <item itemvalue="JUnit.ConcatenateString" />
         <item itemvalue="JUnit.ConcatenateString.test" />
         <item itemvalue="JUnit.BuildTree.test" />
         <item itemvalue="JUnit.DetectCycle.test" />
-        <item itemvalue="JUnit.RemoveKdigits.test" />
       </list>
     </recent_temporary>
   </component>
@@ -311,44 +318,44 @@
       <option name="presentableId" value="Default" />
       <updated>1565876135903</updated>
       <workItem from="1565876137222" duration="28094000" />
-      <workItem from="1566009346814" duration="779000" />
+      <workItem from="1566009346814" duration="6079000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DetectCycle_test - 2019.08.16 at 16h 32m 38s.xml">
-      <configuration name="DetectCycle.test" configurationId="JUnit" />
+    <history-entry file="ReserveKGroup_test - 2019.08.17 at 12h 34m 22s.xml">
+      <configuration name="ReserveKGroup.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DetectCycle_test - 2019.08.16 at 16h 32m 40s.xml">
-      <configuration name="DetectCycle.test" configurationId="JUnit" />
+    <history-entry file="ReserveKGroup_test - 2019.08.17 at 12h 34m 24s.xml">
+      <configuration name="ReserveKGroup.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BuildTree_test - 2019.08.16 at 17h 00m 40s.xml">
-      <configuration name="BuildTree.test" configurationId="JUnit" />
+    <history-entry file="ReserveKGroup_test - 2019.08.17 at 12h 35m 24s.xml">
+      <configuration name="ReserveKGroup.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConcatenateString_test - 2019.08.16 at 20h 40m 30s.xml">
-      <configuration name="ConcatenateString.test" configurationId="JUnit" />
+    <history-entry file="ReserveKGroup_test - 2019.08.17 at 12h 35m 33s.xml">
+      <configuration name="ReserveKGroup.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConcatenateString_test - 2019.08.16 at 20h 43m 16s.xml">
-      <configuration name="ConcatenateString.test" configurationId="JUnit" />
+    <history-entry file="ReserveKGroup_test - 2019.08.17 at 12h 35m 59s.xml">
+      <configuration name="ReserveKGroup.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConcatenateString_test - 2019.08.16 at 20h 45m 13s.xml">
-      <configuration name="ConcatenateString.test" configurationId="JUnit" />
+    <history-entry file="ReserveKGroup_test - 2019.08.17 at 12h 41m 46s.xml">
+      <configuration name="ReserveKGroup.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BuildTree_test - 2019.08.16 at 22h 28m 43s.xml">
-      <configuration name="BuildTree.test" configurationId="JUnit" />
+    <history-entry file="ReserveKGroup_test - 2019.08.17 at 12h 42m 02s.xml">
+      <configuration name="ReserveKGroup.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConcatenateString_test - 2019.08.17 at 10h 44m 55s.xml">
-      <configuration name="ConcatenateString.test" configurationId="JUnit" />
+    <history-entry file="ReserveKGroup_test - 2019.08.17 at 12h 45m 41s.xml">
+      <configuration name="ReserveKGroup.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConcatenateString_test - 2019.08.17 at 10h 47m 47s.xml">
-      <configuration name="ConcatenateString.test" configurationId="JUnit" />
+    <history-entry file="ReserveKGroup_test - 2019.08.17 at 12h 47m 26s.xml">
+      <configuration name="ReserveKGroup.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConcatenateString_test - 2019.08.17 at 10h 48m 09s.xml">
-      <configuration name="ConcatenateString.test" configurationId="JUnit" />
+    <history-entry file="ReserveKGroup_test - 2019.08.17 at 12h 47m 28s.xml">
+      <configuration name="ReserveKGroup.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28873000" />
+    <option name="totallyTimeSpent" value="34173000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -452,65 +459,95 @@
           <properties />
           <option name="timeStamp" value="45" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/LintCode/ReserveKGroup.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/LintCode/ReserveKGroup.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/LintCode/ReserveKGroup.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/LintCode/ReserveKGroup.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="head.val" language="JAVA" />
         <watch expression="head.next.val" language="JAVA" />
-        <watch expression="head.next.next" language="JAVA" />
+        <watch expression="head.next.next.val" language="JAVA" />
+        <watch expression="n1.val" language="JAVA" />
+        <watch expression="nk.val" language="JAVA" />
+        <watch expression="curt.val" language="JAVA" />
+        <watch expression="prev.val" language="JAVA" />
+        <watch expression="tmp.val" language="JAVA" />
+        <watch expression="nk.next.val" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
-        <expression-string>head.next.next</expression-string>
+        <expression-string>nk.next.val</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>head.next.val</expression-string>
+        <expression-string>tmp.val</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>head.val</expression-string>
+        <expression-string>prev.val</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>head</expression-string>
+        <expression-string>curt.val</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>dequeue</expression-string>
+        <expression-string>nk.val</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>diff[i]</expression-string>
+        <expression-string>n1.val</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>(int)num.charAt(i)</expression-string>
+        <expression-string>kNext</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>(int)num.charAt(i+k)</expression-string>
+        <expression-string>kNextNode</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>lenRes</expression-string>
+        <expression-string>kNode.val</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>tmp</expression-string>
+        <expression-string>head.next.next.val</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -680,12 +717,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/LintCode/ConcatenateString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="90" column="2" selection-start-line="90" selection-start-column="2" selection-end-line="90" selection-end-column="2" />
+        <state relative-caret-position="1224">
+          <caret line="90" column="5" lean-forward="true" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/LintCode/ReserveKGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="151" column="7" selection-start-line="151" selection-start-column="7" selection-end-line="151" selection-end-column="7" />
         </state>
       </provider>
     </entry>
